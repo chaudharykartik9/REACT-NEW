@@ -1,4 +1,5 @@
 import React from 'react'
+import OtpInput from './components/OtpInput'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <div className='bg-red-300 sm:col-span-4 col-span-10'>child 2</div>
       <div className='bg-green-200 sm:col-span-2 col-span-10' >child 3</div>
     </div>
+    <OtpInput/>
     </>
   )
 }
