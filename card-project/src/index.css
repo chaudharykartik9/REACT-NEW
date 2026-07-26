@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #111;
+    font-family: Arial, sans-serif;
+}
+
+.parent {
+    min-height: 100vh;
+    width: 100%;
+    background: #111;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.card{
+    width: 280px;
+    height: 420px;   /* Taller card */
+    background: #fff;
+    border-radius: 30px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.card .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+    padding: 2px;
+}
+
+.top button {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 4px 8px;
+    border: 1px solid #dadada;
+    border-radius: 8px;
+    background: transparent;
+    color: #393939;
+    cursor: pointer;
+}
+
+.center {
+    border-top: 1px solid #b1b1b1;
+    padding-top: 15px;
+}
+
+.center h3 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.center h3 span {
+    font-size: 10px;
+    font-weight: 400;
+    color: #8b8b88;
+}
+
+.center h2 {
+    font-size: 20px;
+}
+
+.center .tag {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.center .tag h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    background: #dadada;
+    color: #111;
+    padding: 3px 6px;
+    border-radius: 8px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #b1b1b1;
+    padding-top: 15px;
+}
+
+.bottom button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 10px;
+    background: #111;
+    color: #c0c0c0;
+    cursor: pointer;
+}
